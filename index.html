@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animacja pisania tekstu</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 1024px;
+      width: 100%;
+      padding: 10px;
+    }
+
+    .typewriter {
+      border-right: 0.15em solid #333;
+      animation: blink-caret 1s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+      0%, 100% {
+        border-color: transparent;
+      }
+      50% {
+        border-color: #333;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="typewriter" id="typewriterText"></div>
+	
+Abstract:<br>
+<br>
+The GPT-4 Oracles for Decentralized Applications on EVM (GPT4EVM) project aims to bridge the gap between Ethereum Virtual Machine (EVM)-based smart contracts and the GPT-4 language model, allowing developers to harness the power of GPT-4 in their decentralized applications. By implementing an oracle system, GPT4EVM will provide a secure and efficient way for smart contracts to access the GPT-4 model's natural language processing capabilities.<br>
+<br>
+Introduction<br>
+The emergence of smart contracts on the Ethereum blockchain has facilitated the development of decentralized applications (dApps) that can perform complex tasks in a trustless environment. However, these dApps are typically limited to on-chain data and operations, which can constrain their functionality. To extend the range of applications and enhance their capabilities, the GPT-4 Oracles for Decentralized Applications on EVM (GPT4EVM) project seeks to connect EVM-based smart contracts with the GPT-4 language model, allowing them to leverage its natural language processing capabilities.<br>
+<br>
+1.1. Background<br>
+<br>
+The Ethereum blockchain has grown to become the leading platform for decentralized applications (dApps) and smart contracts. Ethereum's smart contracts are built on the Ethereum Virtual Machine (EVM), which provides a Turing-complete environment for executing code. However, due to the isolated nature of the EVM, accessing off-chain data or services is not directly possible, which limits the scope of smart contract functionality. In this context, oracles are essential for bridging the gap between on-chain and off-chain data and services.<br>
+<br>
+GPT-4 Overview<br>
+GPT-4 is a state-of-the-art language model developed by OpenAI. It uses machine learning techniques to understand and generate human-like text based on the input provided. GPT-4 can perform tasks such as summarization, translation, content generation, and more. Integrating GPT-4 into smart contracts can significantly expand their functionality, making them more versatile and powerful.<br>
+<br>
+2.1. GPT-4 Applications<br>
+<br>
+GPT-4's potential applications in the context of decentralized applications include:<br>
+<br>
+a. Content moderation: Automatically filtering and moderating content according to community guidelines or platform-specific rules.<br>
+b. Automated legal services: Assisting in contract drafting, analysis, and enforcement.<br>
+c. Decentralized AI assistants: Providing personalized, AI-driven assistance to users within dApps.<br>
+d. Advanced analytics: Performing complex data analysis and providing insights based on natural language queries.<br>
+<br>
+Oracle System<br>
+An oracle system is necessary to bridge the gap between on-chain smart contracts and off-chain data or services, like GPT-4. The GPT4EVM project will implement a secure and reliable oracle system that allows EVM-based smart contracts to access GPT-4 services. This system will consist of multiple oracle nodes, providing redundancy and minimizing the risk of manipulation. Oracle nodes will be responsible for fetching GPT-4 model results and submitting them to smart contracts on the blockchain.<br>
+<br>
+3.1. Oracle Node Selection<br>
+<br>
+To maintain decentralization and security, the GPT4EVM project will employ a node selection mechanism to choose which oracle nodes will be responsible for processing GPT-4 requests. This mechanism will be based on factors such as node reputation, stake, and past performance.<br>
+<br>
+3.2. Data Verification<br>
+<br>
+To ensure the accuracy and reliability of the data provided by GPT-4 oracles, the GPT4EVM project will implement data verification mechanisms. This may include the use of cryptographic signatures, consensus algorithms, or other techniques to validate the authenticity of GPT-4 model results before they are submitted to smart contracts.<br>
+<br>
+GPT4EVM Token<br>
+To facilitate the operation of the oracle system and incentivize participation, the GPT4EVM project will introduce a native ERC20 token, the GPT4EVM token. Users and developers will utilize GPT4EVM tokens to pay for GPT-4 services, while oracle node operators will receive GPT4EVM tokens as compensation for their services. This token economy will create a sustainable ecosystem that promotes the growth and adoption of the GPT4EVM platform.<br>
+<br>
+4.1. Token Distribution<br>
+<br>
+The GPT4EVM token distribution will be designed to ensure a fair and equitable allocation of tokens among stakeholders, including project founders, team members, advisors, community members, and oracle node operators. The distribution may include an initial coin offering (ICO), private sale, public sale, or a combination of these methods.<br>
+<br>
+4.2. Token Utility<br>
+<br>
+The GPT4EVM token will have multiple utilities within the GPT4EVM ecosystem, including:<br>
+<br>
+a. Payment for GPT-4 services: Users and developers will use GPT4EVM tokens to pay for accessing GPT-4 model results.<br>
+b. Staking: Oracle node operators may be required to stake GPT4EVM tokens as collateral, ensuring their commitment to providing reliable and accurate data.<br>
+c. Governance: GPT4EVM token holders may participate in the governance of the GPT4EVM platform, voting on proposals, and making decisions about the project's future development.<br>
+<br>
+Use Cases<br>
+Integrating GPT-4 into EVM-based smart contracts will enable a wide range of new decentralized applications, such as:<br>
+<br>
+a. Decentralized content creation platforms: Users can create, edit, and collaborate on content using GPT-4's natural language processing capabilities.<br>
+b. Automatic language translation services: GPT-4 can provide real-time translations for multilingual dApps, facilitating communication and collaboration across language barriers.<br>
+c. Sentiment analysis for decentralized finance (DeFi) applications: GPT-4 can analyze news articles, social media posts, and other text data to determine market sentiment, helping users make informed investment decisions.<br>
+d. Decentralized customer support and chatbots: GPT-4 can be used to create intelligent, context-aware chatbots and customer support systems that can answer user queries and provide assistance within dApps.<br>
+<br>
+Security and Privacy<br>
+The GPT4EVM project will prioritize security and privacy, ensuring the confidentiality of user data and the integrity of GPT-4 model results. The oracle system will employ secure data transmission protocols and encryption to protect user data, while the decentralized nature of the system will minimize the risk of a single point of failure.<br>
+<br>
+6.1. Oracle Security<br>
+<br>
+To safeguard against malicious actors and data manipulation, the GPT4EVM oracle system will implement strict security measures, including secure data transmission, regular node audits, and a reputation system for oracle node operators.<br>
+<br>
+6.2. User Privacy<br>
+<br>
+User privacy is paramount within the GPT4EVM ecosystem. Measures such as data anonymization, encryption, and selective data sharing will be implemented to protect users' personal information and ensure compliance with data protection regulations.<br>
+<br>
+Roadmap and Future Development<br>
+The GPT4EVM project will follow a phased development approach, with milestones including the development of the oracle system, GPT4EVM token deployment, and the integration of GPT-4 into smart contracts. Future development efforts may focus on expanding the range of GPT-4 services available, optimizing the oracle system for scalability and performance, and exploring collaborations with other decentralized projects and platforms.<br>
+<br>
+Conclusion<br>
+The GPT-4 Oracles for Decentralized Applications on EVM (GPT4EVM) project aims to revolutionize the capabilities of EVM-based smart contracts by integrating the powerful GPT-4 language model. By implementing a secure and reliable oracle system, GPT4EVM will enable developers to create a new generation of decentralized applications that leverage GPT-4's natural language processing capabilities, expanding the potential use cases and fostering greater innovation in the blockchain space.<br>
+	
+  </div>
+
+  <script>
+    const text = "GPT4EVM\n\nTitle: GPT-4 Oracles for Decentralized Applications on EVM\n\n";
+    const typewriterText = document.getElementById('typewriterText');
+    
+    function typeText(index) {
+      if (index < text.length) {
+        if (text[index] === '\n') {
+          typewriterText.innerHTML += '<br>';
+        } else {
+          typewriterText.innerHTML += text[index];
+        }
+        setTimeout(() => typeText(index + 1), 200);
+      } else {
+        typewriterText.style.borderRight = 'none';
+      }
+    }
+
+    typeText(0);
+  </script>
+</body>
+</html>
